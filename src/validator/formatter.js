@@ -1,4 +1,5 @@
-// const a='     functionup     ';
+// const a='     functi
+
 
 // console.log(a.trim());
 
@@ -16,11 +17,21 @@ function trim()
 }
 trim()
 
+const Lower = 'my Name is aman';
+
+ console.log(Lower.toLowerCase());
 
 
-function toLowerCase()
-{
-    console.log(" AMAn");
 
-}
-toLowerCase()
+
+
+   const Upper = 'my name is aman';
+
+ console.log(Upper.toUpperCase());
+
+
+
+module.exports.trim = trim
+ module.exports.Lower = Lower
+ 
+ module.exports.Upper = Upper
