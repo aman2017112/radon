@@ -13,16 +13,17 @@ router.get('/test-me', function (req, res) {
     res.send('My first ever api!')
 });
 
-// router.get('/hello', function (req, res) {
+router.get('/hello', function (req, res) {
    
-//     res.send('Hello there!')
-// });
+    res.send('Hello there!')
+});
 
 
-//router.get('/movies', function (req, res) {
+router.get('/movies', function (req, res) {
    
-//     res.send('Hello there!')
-// });
+const arr =["rang de basanti" , "the shining","lord of the rings","batman begins"]
+res.send(arr)
+});
 
     
 router.get('/candidates', function(req, res){
