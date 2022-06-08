@@ -14,10 +14,8 @@ router.post("/createBook", bookController.createBook )
 router.get("/getBooksByChetanBhagat", bookController.getBooksByChetanBhagat)
 router.get("/authorOfBook", bookController.authorOfBook)
 
-// router.post("/createBook", BookController.createBook  )
-
+// router.post("/createBook", BookController.createBook)
 // router.get("/getBooksData", BookController.getBooksData)
-
 // router.post("/updateBooks", BookController.updateBooks)
 // router.post("/deleteBooks", BookController.deleteBooks)
 
